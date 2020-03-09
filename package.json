@@ -1,0 +1,40 @@
+{
+  "name": "lifesaviou_jackie",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-native start --port 9988",
+    "test": "jest"
+  },
+  "dependencies": {
+    "color-convert": "^1.9.0",
+    "has-flag": "^2.0.0",
+    "process-nextick-args": "^1.0.7",
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.2",
+    "react-native-push-notification": "^3.0.1",
+    "react-navigation": "^1.0.0-beta.13"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "A react native based app for health care assistance [Proposal](https://github.com/rajagopal28/healthcare-server/blob/master/proposal.md)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhik1998/Lifesaviour-2.0--Jackie.git"
+  },
+  "author": "Abhik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhik1998/Lifesaviour-2.0--Jackie/issues"
+  },
+  "homepage": "https://github.com/Abhik1998/Lifesaviour-2.0--Jackie#readme"
+}
